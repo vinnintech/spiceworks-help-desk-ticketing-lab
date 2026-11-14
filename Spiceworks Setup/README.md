@@ -39,7 +39,7 @@ Configured a simulated IT help desk environment, created canned responses, estab
 - Created a custom High Priority Incidents ticket view.
 - Documented configuration steps and testing evidence with screenshots.
 
-[View Lab 01: Setup and Configuration](./Spiceworks%20Setup/README.md)
+[View Lab 01: Setup and Configuration](https://github.com/vinnintech/spiceworks-help-desk-ticketing-lab/blob/main/Spiceworks%20Setup/README.md)
 
 ### Upcoming Labs
 - **Lab 02:** Ticket Creation, Assignment, and Lifecycle Management
