@@ -1,94 +1,59 @@
-# Spiceworks Help Desk Setup and Configuration
 
-## Objective
+# Spiceworks Help Desk Ticketing Lab
 
-Establish a simulated IT service desk environment using Spiceworks Cloud Help Desk to gain hands-on experience with ticket management, user administration, workflow automation, ticket prioritization, and technical support documentation.
+## Project Overview
+This project demonstrates the deployment, configuration, and administration of a simulated IT service desk environment using Spiceworks Cloud Help Desk.
 
-## Lab Environment
+The purpose of this lab is to develop practical IT support skills through hands-on exercises involving ticket management, workflow automation, incident prioritization, troubleshooting, and technical documentation.
 
-- **Ticketing Platform:** Spiceworks Cloud Help Desk
-- **Organization:** Vinn Ntech (simulated)
-- **Environment:** Web-based IT support lab
-- **Role:** Help Desk Administrator / IT Support Technician
-- **Test Data:** Fictional employees and support incidents
+The environment simulates an internal IT department supporting employees within a fictional organization, **Vinn NTech**.
 
-## Lab 01: Help Desk Configuration
+## Technologies & Tools
+- Spiceworks Cloud Help Desk
+- Windows 11
+- GitHub
+- Windows Server 2022 and Active Directory (for planned integration exercises)
 
-### 1. Initial Setup
-
-Configured a Spiceworks Cloud Help Desk environment to simulate internal IT support operations.
-
-Reviewed administrative settings, employee management, ticket views, ticket rules, and notification preferences.
-
-![Global Settings](screenshots/04-global-settings.png)
-
-### 2. Employee Administration
-
-Created fictional employee accounts to simulate a multi-user organization and test ticket assignment behavior.
-
-This provided a controlled environment for testing support workflows involving different users.
-
-### 3. Canned Responses
-
-Created three standardized responses to improve consistency in help desk communications:
-
-![Ticket Acknowledgment](screenshots/09-canned-response-acknowledgment.png)
-
-- **Initial Ticket Acknowledgment:** Confirms receipt of a support request.
-- **Request Additional Information:** Requests information needed for troubleshooting.
-- **Resolution Confirmation:** Requests confirmation that an issue has been resolved before closing the ticket.
-
-### 4. Automated Ticket Assignment
-
-Configured a ticket rule to automatically assign Network-related incidents to the designated IT support technician.
-
-**Rule condition:** Category is Network
-
-**Action:** Assign to Vinn Ntech
-
-![Automation Rule](screenshots/13-network-rule-action.png)
-
-### 5. Troubleshooting Assignment Behavior
-
-**Problem:** During initial testing, tickets outside the Network category appeared to be automatically assigned.
-
-**Troubleshooting:** Added fictional employee accounts and continued testing ticket assignment behavior in the simulated environment.
-
-**Verification:** Confirmed that Network tickets were automatically assigned while Hardware tickets remained unassigned.
-
-**Result:** The intended category-specific assignment workflow operated correctly during subsequent testing.
-
-### 6. Custom Ticket Views
-
-Created a custom ticket view named **High Priority Incidents**.
-
-Configured filters to identify tickets meeting the following conditions:
-
-- Priority: High
-- Status: Open
-
-Verified that the custom view displayed two qualifying support tickets:
-
-- Ticket #3: Internet connectivity issue
-- Ticket #6: Screen flickering issue
-
-![High Priority Incidents](screenshots/21-high-priority-view.png)
-
-### 7. Skills Demonstrated
-
-- IT Service Desk Administration
-- Incident Classification and Prioritization
-- Automated Ticket Routing
-- Employee Account Administration
+## Skills Demonstrated
+- Help Desk Configuration and Administration
+- IT Ticket Creation and Management
+- Ticket Categorization and Prioritization
+- Automated Ticket Assignment
 - Ticket Queue Management
-- Help Desk Communication
-- Workflow Troubleshooting
+- Canned Responses and User Communication
+- Troubleshooting Automation Rules
 - Technical Documentation
 
-## Lab Outcome
+## Project Labs
 
-Successfully configured and tested a simulated Spiceworks Cloud Help Desk environment, including employee accounts, canned responses, automated ticket assignment, and a custom high-priority ticket queue.
+### Lab 01: Spiceworks Help Desk Setup and Configuration
+**Status:** Completed
 
-This lab provided practical experience with administrative workflows commonly used in Tier 1 IT Help Desk and IT Support environments.
+Configured a simulated IT help desk environment, created canned responses, established automated ticket assignment rules, and organized high-priority incident queues.
 
-**Note:** All incidents and employee accounts were created for educational simulation purposes.
+**Key Accomplishments:**
+- Configured Spiceworks Cloud Help Desk for a simulated organization.
+- Created reusable ticket acknowledgment, information request, and resolution confirmation messages.
+- Configured and tested network ticket assignment automation.
+- Identified and corrected an automation issue affecting unrelated ticket categories.
+- Created a custom High Priority Incidents ticket view.
+- Documented configuration steps and testing evidence with screenshots.
+
+[View Lab 01: Setup and Configuration](./Spiceworks%20Setup/README.md)
+
+### Upcoming Labs
+- **Lab 02:** Ticket Creation, Assignment, and Lifecycle Management
+- **Lab 03:** Incident Troubleshooting and Resolution
+- **Lab 04:** Active Directory User Support
+- **Lab 05:** Ticket Escalation and Reporting
+
+## Documentation
+Each completed lab includes a technical walkthrough, configuration screenshots, troubleshooting notes, and a summary of results.
+
+All scenarios use a simulated IT support environment for educational and portfolio purposes.
+
+## Author
+**Vincent Egbunine Jr.**  
+IT Support Enthusiast | Information Technology Student
+
+[GitHub Profile](https://github.com/vinnintech)
