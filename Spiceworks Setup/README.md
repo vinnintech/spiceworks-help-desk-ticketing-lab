@@ -43,11 +43,6 @@ Configured a simulated IT help desk environment, created canned responses, estab
 
 [View Lab 01: Setup and Configuration](https://github.com/vinnintech/spiceworks-help-desk-ticketing-lab/blob/main/Spiceworks%20Setup/README.md)
 
-### Upcoming Labs
-- **Lab 02:** Ticket Creation, Assignment, and Lifecycle Management
-- **Lab 03:** Incident Troubleshooting and Resolution
-- **Lab 04:** Active Directory User Support
-- **Lab 05:** Ticket Escalation and Reporting
 
 ## Documentation
 Each completed lab includes a technical walkthrough, configuration screenshots, troubleshooting notes, and a summary of results.
@@ -56,6 +51,6 @@ All scenarios use a simulated IT support environment for educational and portfol
 
 ## Author
 **Vincent Egbunine Jr.**  
-IT Support Enthusiast | Information Technology Student
+IT Support Analyst
 
 [GitHub Profile](https://github.com/vinnintech)
