@@ -1,6 +1,8 @@
 
 # Spiceworks Help Desk Ticketing Lab
 
+![Spiceworks Logo](screenshots/01spiceworks-logo.png)
+
 ## Project Overview
 This project demonstrates the deployment, configuration, and administration of a simulated IT service desk environment using Spiceworks Cloud Help Desk.
 
